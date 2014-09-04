@@ -7,12 +7,35 @@
 //
 
 #import "AppDelegate.h"
+#import "ClockViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   
+    if (self.currentTimezoneName)
+        self.currentTimezoneName = [[NSString alloc] init];
+    
+    self.currentTimezoneName = [[NSTimeZone localTimeZone] name];
+
+    NSString *nibName = [[[NSString alloc] init] autorelease];
+    NSString *deviceType = [self getDeviceType];
+    if ([deviceType isEqualToString:@"iPad"] || [deviceType isEqualToString:@"iPad Simulator"])
+        nibName = @"ClockViewController-iPad";
+    else
+        nibName = @"ClockViewController";
+
+    ClockViewController *mClockViewController = [[ClockViewController alloc] initWithNibName:nibName bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mClockViewController];
+	[navController.navigationBar setBarStyle:UIBarStyleBlack];
+	self.navigationController = navController;
+    [self.navigationController setNavigationBarHidden:TRUE];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							
@@ -41,6 +64,11 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(NSString *)getDeviceType
+{
+    return [[UIDevice currentDevice] model];
 }
 
 @end
