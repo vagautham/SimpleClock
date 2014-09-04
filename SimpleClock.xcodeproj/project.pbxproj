@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0446597C19B9112500524C11 /* appIcon@1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597319B9112500524C11 /* appIcon@1024.png */; };
+		0446597D19B9112500524C11 /* appIcon@120.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597419B9112500524C11 /* appIcon@120.png */; };
+		0446597E19B9112500524C11 /* appIcon@29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597519B9112500524C11 /* appIcon@29.png */; };
+		0446597F19B9112500524C11 /* appIcon@40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597619B9112500524C11 /* appIcon@40.png */; };
+		0446598019B9112500524C11 /* appIcon@57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597719B9112500524C11 /* appIcon@57.png */; };
+		0446598119B9112500524C11 /* appIcon@60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597819B9112500524C11 /* appIcon@60.png */; };
+		0446598219B9112500524C11 /* appIcon@80.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597919B9112500524C11 /* appIcon@80.png */; };
+		0446598319B9112500524C11 /* BG-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597A19B9112500524C11 /* BG-568h.png */; };
+		0446598419B9112500524C11 /* BG-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446597B19B9112500524C11 /* BG-568h@2x.png */; };
+		0446598719B911A700524C11 /* appIcon@76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598519B911A700524C11 /* appIcon@76.png */; };
+		0446598819B911A700524C11 /* appIcon@152.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598619B911A700524C11 /* appIcon@152.png */; };
+		0446598F19B913F000524C11 /* BG-iPad-Land.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598919B913F000524C11 /* BG-iPad-Land.png */; };
+		0446599019B913F000524C11 /* BG-iPad-Land@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598A19B913F000524C11 /* BG-iPad-Land@2x.png */; };
+		0446599119B913F000524C11 /* BG-iPad-Port.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598B19B913F000524C11 /* BG-iPad-Port.png */; };
+		0446599219B913F000524C11 /* BG-iPad-Port@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598C19B913F000524C11 /* BG-iPad-Port@2x.png */; };
+		0446599319B913F000524C11 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598D19B913F000524C11 /* BG.png */; };
+		0446599419B913F000524C11 /* BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0446598E19B913F000524C11 /* BG@2x.png */; };
 		046A22FB19B82D9E00C0A681 /* TimezoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A22F919B82D9E00C0A681 /* TimezoneViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		046A22FC19B82D9E00C0A681 /* TimezoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046A22FA19B82D9E00C0A681 /* TimezoneViewController.xib */; };
 		046A22FE19B8AFFB00C0A681 /* ClockViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046A22FD19B8AFFB00C0A681 /* ClockViewController-iPad.xib */; };
@@ -37,6 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0446597319B9112500524C11 /* appIcon@1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@1024.png"; sourceTree = "<group>"; };
+		0446597419B9112500524C11 /* appIcon@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@120.png"; sourceTree = "<group>"; };
+		0446597519B9112500524C11 /* appIcon@29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@29.png"; sourceTree = "<group>"; };
+		0446597619B9112500524C11 /* appIcon@40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@40.png"; sourceTree = "<group>"; };
+		0446597719B9112500524C11 /* appIcon@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@57.png"; sourceTree = "<group>"; };
+		0446597819B9112500524C11 /* appIcon@60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@60.png"; sourceTree = "<group>"; };
+		0446597919B9112500524C11 /* appIcon@80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@80.png"; sourceTree = "<group>"; };
+		0446597A19B9112500524C11 /* BG-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-568h.png"; sourceTree = "<group>"; };
+		0446597B19B9112500524C11 /* BG-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-568h@2x.png"; sourceTree = "<group>"; };
+		0446598519B911A700524C11 /* appIcon@76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@76.png"; sourceTree = "<group>"; };
+		0446598619B911A700524C11 /* appIcon@152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@152.png"; sourceTree = "<group>"; };
+		0446598919B913F000524C11 /* BG-iPad-Land.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-iPad-Land.png"; sourceTree = "<group>"; };
+		0446598A19B913F000524C11 /* BG-iPad-Land@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-iPad-Land@2x.png"; sourceTree = "<group>"; };
+		0446598B19B913F000524C11 /* BG-iPad-Port.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-iPad-Port.png"; sourceTree = "<group>"; };
+		0446598C19B913F000524C11 /* BG-iPad-Port@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-iPad-Port@2x.png"; sourceTree = "<group>"; };
+		0446598D19B913F000524C11 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
+		0446598E19B913F000524C11 /* BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG@2x.png"; sourceTree = "<group>"; };
 		046A22F819B82D9E00C0A681 /* TimezoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimezoneViewController.h; sourceTree = "<group>"; };
 		046A22F919B82D9E00C0A681 /* TimezoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimezoneViewController.m; sourceTree = "<group>"; };
 		046A22FA19B82D9E00C0A681 /* TimezoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimezoneViewController.xib; sourceTree = "<group>"; };
@@ -86,6 +120,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0446597219B9112500524C11 /* appIcons */ = {
+			isa = PBXGroup;
+			children = (
+				0446598919B913F000524C11 /* BG-iPad-Land.png */,
+				0446598A19B913F000524C11 /* BG-iPad-Land@2x.png */,
+				0446598B19B913F000524C11 /* BG-iPad-Port.png */,
+				0446598C19B913F000524C11 /* BG-iPad-Port@2x.png */,
+				0446598D19B913F000524C11 /* BG.png */,
+				0446598E19B913F000524C11 /* BG@2x.png */,
+				0446598519B911A700524C11 /* appIcon@76.png */,
+				0446598619B911A700524C11 /* appIcon@152.png */,
+				0446597319B9112500524C11 /* appIcon@1024.png */,
+				0446597419B9112500524C11 /* appIcon@120.png */,
+				0446597519B9112500524C11 /* appIcon@29.png */,
+				0446597619B9112500524C11 /* appIcon@40.png */,
+				0446597719B9112500524C11 /* appIcon@57.png */,
+				0446597819B9112500524C11 /* appIcon@60.png */,
+				0446597919B9112500524C11 /* appIcon@80.png */,
+				0446597A19B9112500524C11 /* BG-568h.png */,
+				0446597B19B9112500524C11 /* BG-568h@2x.png */,
+			);
+			path = appIcons;
+			sourceTree = "<group>";
+		};
 		04A61D8119B8190000FC77D9 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +177,7 @@
 		04A61D9319B8190000FC77D9 /* SimpleClock */ = {
 			isa = PBXGroup;
 			children = (
+				0446597219B9112500524C11 /* appIcons */,
 				04A61D9C19B8190000FC77D9 /* AppDelegate.h */,
 				04A61D9D19B8190000FC77D9 /* AppDelegate.m */,
 				04A61DC819B81AD700FC77D9 /* ClockViewController.h */,
@@ -239,11 +298,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0446597C19B9112500524C11 /* appIcon@1024.png in Resources */,
+				0446599119B913F000524C11 /* BG-iPad-Port.png in Resources */,
 				04A61DA919B8190000FC77D9 /* Images.xcassets in Resources */,
+				0446599419B913F000524C11 /* BG@2x.png in Resources */,
+				0446598719B911A700524C11 /* appIcon@76.png in Resources */,
 				046A22FC19B82D9E00C0A681 /* TimezoneViewController.xib in Resources */,
+				0446598819B911A700524C11 /* appIcon@152.png in Resources */,
+				0446598219B9112500524C11 /* appIcon@80.png in Resources */,
+				0446599019B913F000524C11 /* BG-iPad-Land@2x.png in Resources */,
+				0446598319B9112500524C11 /* BG-568h.png in Resources */,
 				046A22FE19B8AFFB00C0A681 /* ClockViewController-iPad.xib in Resources */,
 				04A61D9819B8190000FC77D9 /* InfoPlist.strings in Resources */,
+				0446597D19B9112500524C11 /* appIcon@120.png in Resources */,
+				0446598F19B913F000524C11 /* BG-iPad-Land.png in Resources */,
+				0446597E19B9112500524C11 /* appIcon@29.png in Resources */,
+				0446599219B913F000524C11 /* BG-iPad-Port@2x.png in Resources */,
+				0446598019B9112500524C11 /* appIcon@57.png in Resources */,
+				0446598119B9112500524C11 /* appIcon@60.png in Resources */,
 				04A61DCC19B81AD700FC77D9 /* ClockViewController.xib in Resources */,
+				0446598419B9112500524C11 /* BG-568h@2x.png in Resources */,
+				0446597F19B9112500524C11 /* appIcon@40.png in Resources */,
+				0446599319B913F000524C11 /* BG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
